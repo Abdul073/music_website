@@ -1,5 +1,5 @@
 
-import { Meteors } from "@/components/ui/meteors";
+
 import config from "next/config";
 import { transform } from "next/dist/build/swc";
 const svgToDataUri = require("mini-svg-data-uri");
@@ -55,7 +55,6 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        "meteor-effect": "meteor 5s linear infinite",
         spotlight: "spotlight 2s ease .75s 1 forwards",
         scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite"
       },
